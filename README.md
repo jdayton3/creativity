@@ -2,6 +2,13 @@
 
 _Codename: Octopus.  Because I Googled "most creative animal," and "octopus" was the top result._
 
+## To run it: 
+
+```bash
+$ sudo npm install -g ionic cordova
+$ ionic start
+```
+
 ## What 
 
 I'm not sure what my project will be yet, but an Android app (maybe using Ionic?) would be cool!  Maybe something super simple like "remind me of something randomly n times a day."
