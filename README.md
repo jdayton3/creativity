@@ -6,7 +6,8 @@ _Codename: Octopus.  Because I Googled "most creative animal," and "octopus" was
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start
+$ ionic start # Installs dependencies
+$ ionic serve # Serves the app with localhost
 ```
 
 ## What 
