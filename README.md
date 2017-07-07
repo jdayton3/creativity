@@ -9,7 +9,6 @@ $ sudo npm install -g ionic cordova
 $ ionic serve # Install dependencies & serve the app on localhost
 ```
 
-Created from the [Ionic Tutorial].
 
 ## What 
 
@@ -25,6 +24,13 @@ Todo: what problem am I trying to solve / how is my app going to help people?
 
 I'll put at least 30 minutes in per day until it's done.  I'll use the GitHub-Flow branching workflow to track changes, and I'll track ideas using GitHub Issues.  
 
+## Acknowledgements
+
+Created from the [Ionic Tutorial].
+
+Travis build script based on [this repo][Travis build repo].
+
 
 <!-- Sources -->
 [Ionic Tutorial]: http://ionicframework.com/docs//intro/tutorial/
+[Travis build repo]: https://github.com/svenlaater/travis-ci-ionic-yml/blob/master/.travis-ionic.yml
