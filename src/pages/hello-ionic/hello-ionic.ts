@@ -24,12 +24,17 @@ export class HelloIonicPage {
   }
 
   public schedule() {
-    this.localNotifications.schedule({
+    this.localNotifications.schedule([{
       id: 1,
       text: 'Single ILocalNotification',
       sound: this.isAndroid? 'file://sound.mp3': 'file://beep.caf',
       data: {secret: ''}
-    })
+    },
+    {
+      id: 2,
+      title: 'Cool Title!',
+      text: 'Cool text too.'
+    }])
   }
 
 }
